@@ -1,0 +1,5 @@
+use('Login')
+let data ={
+    last_name:"tunjano galindo"
+}
+db.Usuarios.find(data)

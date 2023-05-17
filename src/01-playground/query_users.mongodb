@@ -1,0 +1,9 @@
+use('Login');
+let santiago={
+    first_name:"jhonatan santiago",
+    last_name:"tunjano galindo",
+    age:"19",
+    country:"colombia"
+
+}
+db.zips.insertOne(santiago)

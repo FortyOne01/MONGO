@@ -1,0 +1,16 @@
+use('sample_training');
+
+db.zips.find({city:"ALPINE"});
+
+db.trips.insertOne({
+  "tripduration": 667,
+})
+
+let santiago={
+    first_name:"jhonatan santiago",
+    last_name:"tunjano galindo",
+    age:"19",
+    country:"colombia"
+
+}
+db.zips.insertOne(santiago)
